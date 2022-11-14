@@ -9,15 +9,14 @@ function Navbar() {
 
     return (
     <div className ='fixed w-full h-[80px] flex justify-between items-center px-4 text-primaryColor' id = 'primaryFont'>
+        <div>
+            <img src={logo} alt="logo" className=' h-[80px] flex justify-between items-center px-4' />
+        </div>
+
          {/* HAMBURGER */}
         <div onClick = {handleClick} className='md:hidden z-10'>
             {!nav ? <FaBars/> : <FaTimes/> }
         </div>
-
-        <div>
-            <img src={logo} alt="logo" className=' h-[80px] flex justify-between items-center px-4' />
-        </div>
-        
 
          {/* MENU */}
             <ul className='hidden md:flex'>
