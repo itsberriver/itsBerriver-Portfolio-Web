@@ -1,3 +1,15 @@
 html, .App{
     background:#FFFDFB;
 }
+
+#primaryFont{
+    font-family: 'Oliver', sans-serif;                                             
+}
+
+#secondaryFont{
+    font-family: 'Reenie Beanie', cursive;                                           
+}
+
+#textFont{
+    font-family: 'Garet', sans-serif;                                                                                    
+}
