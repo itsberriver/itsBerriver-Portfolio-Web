@@ -1,5 +1,9 @@
 import logo from '../media/logo.png'
-import { FaBars,FaTimes} from 'react-icons/fa';
+import { FaBars,FaTimes,FaGithub, FaLinkedin,} from 'react-icons/fa';
+import {HiOutlineMail} from 'react-icons/hi';
+import {BsFillPersonLinesFill} from 'react-icons/bs';
+
+
 import React,{useState} from 'react';
 
 function Navbar() {
@@ -33,8 +37,29 @@ function Navbar() {
         </ul>
 
         {/* SOCIAL ICONS */} 
-        <div className="hidden">
-
+        <div className='flex fixed flex-col top-[35%] left-0'>
+            <ul>
+                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-white'>
+                    <a href="/" className='flex justify-between ml-2 items-center w-full text-primaryColor'> 
+                        Github <FaGithub size={30}/>
+                    </a>
+                </li>
+                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-white'>
+                    <a href="/" className='flex justify-between ml-2 items-center w-full text-primaryColor'> 
+                        Linkedin <FaLinkedin size={30}/>
+                    </a>
+                </li>
+                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-white'>
+                    <a href="/" className='flex justify-between ml-2 items-center w-full text-primaryColor'> 
+                        Mail <HiOutlineMail size={30}/>
+                    </a>
+                </li>
+                <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-white'>
+                    <a href="/" className='flex justify-between ml-2 items-center w-full text-primaryColor'> 
+                        Mail <BsFillPersonLinesFill size={30}/>
+                    </a>
+                </li>
+            </ul>
         </div>
 
 

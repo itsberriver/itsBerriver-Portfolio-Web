@@ -3,7 +3,8 @@ import {HiArrownarrowRight} from 'react-icons/hi';
 
 function Home() {
     return (
-    <div >
+    <div className='bg-primaryColor'>
+        
 
         
     </div>
