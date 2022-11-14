@@ -16,14 +16,14 @@ function Home() {
                 </p>
                 <div>
                     <button id ='primaryFont' className='group px-40 py-3 my-2 flex  items-center hover:underline'>
-                        seguir viendo 
+                        ver 
                         <span className='group-hover:rotate-90 duration-300'>
                             <HiArrowNarrowRight className='ml-3'/>
                         </span>
                     </button>
                 </div>
         </div>
-        <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
+        <div className='hidden lg:flex max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
             <img src={profileAvatar} alt="logo" className='max-w-[1000px] px-40 py-3 my-2 flex ' />
         </div>
 
