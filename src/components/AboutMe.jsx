@@ -6,7 +6,7 @@ import aboutMe_Illustration from '../media/aboutMe_Illustration.png'
 
 const AboutMe = () => {
   return (
-      <div className='flex flex-row'>
+      <div className='flex flex-row w-full h-screen'>
         <div name='about' className='w-full h-screen'>
             <div className='flex flex-col justify-center items-center w-full h-full'>
                 <div className='max-w-[1000px] w-full'>
@@ -16,7 +16,7 @@ const AboutMe = () => {
                         </p>
                     </div>
                 </div>
-                <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-2 px-20'>
+                <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-2 px-40'>
                     <div>
                         <p>
                             Holi! Soy Jess, una chica que se mueve por sus ganas de aprender, por su pasión por el código, la ilustración, el diseño y las cosas cuquis. Con personalidad creativa, positiva y risueña. Me verás siempre con un café en la mesa o con mi perrita encima mío. 
