@@ -23,8 +23,8 @@ function Home() {
                     </button>
                 </div>
         </div>
-        <div className='hidden lg:flex max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
-            <img src={profileAvatar} alt="logo" className='max-w-[1000px] px-40 py-3 my-2 flex ' />
+        <div className='max-w-[1000px] px-8 flex flex-col justify-center h-full '>
+            <img src={profileAvatar} alt="logo" className='max-w-[1000px] ' />
         </div>
 
 
