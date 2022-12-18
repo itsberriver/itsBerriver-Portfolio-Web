@@ -5,7 +5,7 @@ import profileAvatar from '../media/profileAvatar.png'
 function Home() {
     return (
     <div name='home' className='w-full h-screen'>
-        <div className='max-w-[1000px] mx-auto flex flex-row h-full'>
+        <div className='max-w-[1000px] mx-auto flex flex-col h-full sm:flex-row'>
             <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
                 <h1 className='text-primaryColor text-4xl sm:text-7xl' id='secondaryFont'>Holi! Soy Jess</h1>
                 <p className='py-4 max-w-[700px]'>
@@ -24,7 +24,7 @@ function Home() {
                 </div>
         </div>
         <div className='max-w-[1000px] px-8 flex flex-col justify-center h-full '>
-            <img src={profileAvatar} alt="logo" className='max-w-[1000px] ' />
+            <img src={profileAvatar} alt="logo" className='max-w-[800px] ' />
         </div>
 
 
